@@ -17,7 +17,7 @@ v{version}
 Nous allons tout d'abord monter un serveur SonarQube avec Docker. 
 Pour vous simplifier la tâche, voici un fichier docker-compose :
 
-[source,yaml]
+[source, yaml]
 ----
 version: "3"
 
@@ -67,3 +67,5 @@ Adaptez alors le code de votre repository de tp comme suit:
 
 * Ajoutez le code de https://github.com/spring-projects/spring-petclinic.git en tant que sous-module git de votre projet dans un dossier spring-petclinic
 * Adaptez le .github/workflows/build-workflow pour éxécuter l'analyse statique du code sur le sous-module
+
+
